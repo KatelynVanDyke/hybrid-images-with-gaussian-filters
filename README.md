@@ -1,35 +1,28 @@
 # Hybrid Image Generator
 
-## Author: Katelyn Van Dyke
-## Date: 26 Jan 2024
-## Course: Computer Vision
-## Professor: Dr. Feliz Bunyak Ersoy
-
 ### Description
 
 This repository contains Python code for generating hybrid images, a technique in computer vision that combines low-frequency information from one image with high-frequency information from another to create a visually intriguing composite image.
 
-### Installation
+### Installation and Usage
 
-Ensure you have the required dependencies installed:
+1. Ensure you have the required dependencies installed:
 
 ```bash
 pip install opencv-python numpy matplotlib
 ```
 
-### Usage
-
-1. Clone the repository:
+2. Clone the repository:
 
 ```bash
-git clone [repository_url]
-cd [repository_directory]
+git clone https://github.com/KatelynVanDyke/hybrid-images-with-gaussian-filters.git
+cd hybrid-images-with-gaussian-filters
 ```
 
-2. Run the script:
+3. Run the script:
 
 ```bash
-python hybrid_image_generator.py
+python assignment1a.py
 ```
 
 ### Files
@@ -55,13 +48,3 @@ The script performs the following operations:
 ### Results
 
 The script outputs various images and histograms in the /data directory, providing insights into the frequency components of the input images and the resulting hybrid image.
-
-### Acknowledgments
-
-The script is based on the principles of hybrid image generation and leverages the OpenCV library for image processing.
-
-For any questions or issues, please contact Katelyn Van Dyke at [contact_email].
-
----
-
-*Note: Replace [repository_url], [repository_directory], and [contact_email] with the appropriate values.*
